@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CoreDataHelper.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSError *error;
+    NSFileManager *fileManger = [NSFileManager defaultManager];
+    
+    NSString *fromPath = [[NSBundle mainBundle]pathForResource:@"WoundCare" ofType:@"sqlite"];
+    NSString *toPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    NSString *toPathFinal = [toPath stringByAppendingPathComponent:@"WoundCare.sqlite"];
+    
+    NSString *fromPath1 = [[NSBundle mainBundle]pathForResource:@"WoundCare" ofType:@"sqlite-shm"];
+    NSString *toPathFinal1 = [toPath stringByAppendingPathComponent:@"WoundCare.sqlite-shm"];
+    
+    
+    NSString *fromPath2 = [[NSBundle mainBundle]pathForResource:@"WoundCare" ofType:@"sqlite-wal"];
+    NSString *toPathFinal2 = [toPath stringByAppendingPathComponent:@"WoundCare.sqlite-wal"];
+    
+    
+    NSArray *dirContents = [fileManger contentsOfDirectoryAtPath:toPath error:&error];
+    
+    if (![dirContents count]>0) {
+        NSError *copyError;
+        [fileManger copyItemAtPath:fromPath toPath:toPathFinal error:&copyError];
+        [fileManger copyItemAtPath:fromPath1 toPath:toPathFinal1 error:&copyError];
+        [fileManger copyItemAtPath:fromPath2 toPath:toPathFinal2 error:&copyError];
+
+    }
+    CoreDataHelper *theHandler=[CoreDataHelper sharedInstance];
+    theHandler.managedObjectContext=self.managedObjectContext;
     return YES;
 }
 
@@ -74,6 +102,7 @@
     // Create the coordinator and store
     
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"WoundCare.sqlite"];
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";

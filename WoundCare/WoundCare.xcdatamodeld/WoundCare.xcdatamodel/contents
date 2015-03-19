@@ -1,4 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Education" representedClassName="Education" syncable="YES">
+        <attribute name="category_fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Login" representedClassName="Login" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staffName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pain" representedClassName="Pain" syncable="YES">
+        <attribute name="category_fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_score" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PatientDetails" representedClassName="PatientDetails" syncable="YES">
+        <attribute name="admit_dt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="admit_md" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="consult_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entry_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mmi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mrn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="room_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staff_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="staff_userid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="submit_dt" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Recommendations" representedClassName="Recommendations" syncable="YES">
+        <attribute name="category_fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ReviewAssessment" representedClassName="ReviewAssessment" syncable="YES">
+        <attribute name="category_fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_subfield" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ReviewBase" representedClassName="ReviewBase" syncable="YES">
+        <attribute name="category_fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Treatment" representedClassName="Treatment" syncable="YES">
+        <attribute name="category_fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Education" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Login" positionX="-54" positionY="-9" width="128" height="88"/>
+        <element name="Pain" positionX="-36" positionY="9" width="128" height="103"/>
+        <element name="PatientDetails" positionX="-18" positionY="27" width="128" height="283"/>
+        <element name="Recommendations" positionX="0" positionY="45" width="128" height="88"/>
+        <element name="ReviewAssessment" positionX="18" positionY="63" width="128" height="118"/>
+        <element name="ReviewBase" positionX="36" positionY="81" width="128" height="88"/>
+        <element name="Treatment" positionX="-9" positionY="36" width="128" height="88"/>
+    </elements>
 </model>

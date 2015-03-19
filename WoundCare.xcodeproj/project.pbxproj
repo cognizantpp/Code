@@ -15,6 +15,23 @@
 		91C2288B1ABA983900E389AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C2288A1ABA983900E389AF /* Images.xcassets */; };
 		91C2288E1ABA983900E389AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C2288C1ABA983900E389AF /* LaunchScreen.xib */; };
 		91C2289A1ABA983900E389AF /* WoundCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228991ABA983900E389AF /* WoundCareTests.m */; };
+		91C228A61ABA9A5D00E389AF /* Pain.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228A51ABA9A5D00E389AF /* Pain.m */; };
+		91C228A91ABA9A5E00E389AF /* Education.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228A81ABA9A5E00E389AF /* Education.m */; };
+		91C228AC1ABA9A5E00E389AF /* ReviewAssessment.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228AB1ABA9A5E00E389AF /* ReviewAssessment.m */; };
+		91C228AF1ABA9A5E00E389AF /* ReviewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228AE1ABA9A5E00E389AF /* ReviewBase.m */; };
+		91C228B21ABA9A5E00E389AF /* Recommendations.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228B11ABA9A5E00E389AF /* Recommendations.m */; };
+		91C228B51ABA9A5E00E389AF /* PatientDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228B41ABA9A5E00E389AF /* PatientDetails.m */; };
+		91C228B81ABA9A5E00E389AF /* Treatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228B71ABA9A5E00E389AF /* Treatment.m */; };
+		91C228BB1ABA9A5E00E389AF /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228BA1ABA9A5E00E389AF /* Login.m */; };
+		91C228BF1ABA9A9600E389AF /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228BE1ABA9A9600E389AF /* CoreDataHelper.m */; };
+		91C228C21ABA9AF500E389AF /* AssignmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C228C11ABA9AF500E389AF /* AssignmentsViewController.m */; };
+		91C228C81ABA9B1B00E389AF /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C228C51ABA9B1B00E389AF /* sample.png */; };
+		91C228C91ABA9B1B00E389AF /* welcome_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C228C61ABA9B1B00E389AF /* welcome_bg.png */; };
+		91C228CA1ABA9B1B00E389AF /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C228C71ABA9B1B00E389AF /* loginbutton.png */; };
+		91C228CC1ABA9B2100E389AF /* textboxbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C228CB1ABA9B2100E389AF /* textboxbig.png */; };
+		91C228D11ABAA4E000E389AF /* WoundCare.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 91C228CE1ABAA4E000E389AF /* WoundCare.sqlite */; };
+		91C228D21ABAA4E000E389AF /* WoundCare.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 91C228CF1ABAA4E000E389AF /* WoundCare.sqlite-shm */; };
+		91C228D31ABAA4E000E389AF /* WoundCare.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 91C228D01ABAA4E000E389AF /* WoundCare.sqlite-wal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +59,33 @@
 		91C228931ABA983900E389AF /* WoundCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoundCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C228981ABA983900E389AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91C228991ABA983900E389AF /* WoundCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoundCareTests.m; sourceTree = "<group>"; };
+		91C228A41ABA9A5D00E389AF /* Pain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pain.h; sourceTree = "<group>"; };
+		91C228A51ABA9A5D00E389AF /* Pain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pain.m; sourceTree = "<group>"; };
+		91C228A71ABA9A5E00E389AF /* Education.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Education.h; sourceTree = "<group>"; };
+		91C228A81ABA9A5E00E389AF /* Education.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Education.m; sourceTree = "<group>"; };
+		91C228AA1ABA9A5E00E389AF /* ReviewAssessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewAssessment.h; sourceTree = "<group>"; };
+		91C228AB1ABA9A5E00E389AF /* ReviewAssessment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewAssessment.m; sourceTree = "<group>"; };
+		91C228AD1ABA9A5E00E389AF /* ReviewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewBase.h; sourceTree = "<group>"; };
+		91C228AE1ABA9A5E00E389AF /* ReviewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewBase.m; sourceTree = "<group>"; };
+		91C228B01ABA9A5E00E389AF /* Recommendations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recommendations.h; sourceTree = "<group>"; };
+		91C228B11ABA9A5E00E389AF /* Recommendations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recommendations.m; sourceTree = "<group>"; };
+		91C228B31ABA9A5E00E389AF /* PatientDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDetails.h; sourceTree = "<group>"; };
+		91C228B41ABA9A5E00E389AF /* PatientDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDetails.m; sourceTree = "<group>"; };
+		91C228B61ABA9A5E00E389AF /* Treatment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treatment.h; sourceTree = "<group>"; };
+		91C228B71ABA9A5E00E389AF /* Treatment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treatment.m; sourceTree = "<group>"; };
+		91C228B91ABA9A5E00E389AF /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		91C228BA1ABA9A5E00E389AF /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		91C228BD1ABA9A9600E389AF /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		91C228BE1ABA9A9600E389AF /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		91C228C01ABA9AF500E389AF /* AssignmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentsViewController.h; sourceTree = "<group>"; };
+		91C228C11ABA9AF500E389AF /* AssignmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentsViewController.m; sourceTree = "<group>"; };
+		91C228C51ABA9B1B00E389AF /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		91C228C61ABA9B1B00E389AF /* welcome_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_bg.png; sourceTree = "<group>"; };
+		91C228C71ABA9B1B00E389AF /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
+		91C228CB1ABA9B2100E389AF /* textboxbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textboxbig.png; sourceTree = "<group>"; };
+		91C228CE1ABAA4E000E389AF /* WoundCare.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WoundCare.sqlite; sourceTree = "<group>"; };
+		91C228CF1ABAA4E000E389AF /* WoundCare.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WoundCare.sqlite-shm"; sourceTree = "<group>"; };
+		91C228D01ABAA4E000E389AF /* WoundCare.sqlite-wal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "WoundCare.sqlite-wal"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +109,12 @@
 		91C2286E1ABA983900E389AF = {
 			isa = PBXGroup;
 			children = (
+				91C228CE1ABAA4E000E389AF /* WoundCare.sqlite */,
+				91C228CF1ABAA4E000E389AF /* WoundCare.sqlite-shm */,
+				91C228D01ABAA4E000E389AF /* WoundCare.sqlite-wal */,
+				91C228C31ABA9B0C00E389AF /* images */,
+				91C228BC1ABA9A8300E389AF /* CoreDataHelper */,
+				91C228A31ABA9A3F00E389AF /* DataModels */,
 				91C228791ABA983900E389AF /* WoundCare */,
 				91C228961ABA983900E389AF /* WoundCareTests */,
 				91C228781ABA983900E389AF /* Products */,
@@ -83,6 +133,8 @@
 		91C228791ABA983900E389AF /* WoundCare */ = {
 			isa = PBXGroup;
 			children = (
+				91C228C01ABA9AF500E389AF /* AssignmentsViewController.h */,
+				91C228C11ABA9AF500E389AF /* AssignmentsViewController.m */,
 				91C2287E1ABA983900E389AF /* AppDelegate.h */,
 				91C2287F1ABA983900E389AF /* AppDelegate.m */,
 				91C228841ABA983900E389AF /* ViewController.h */,
@@ -120,6 +172,57 @@
 				91C228981ABA983900E389AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91C228A31ABA9A3F00E389AF /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				91C228B91ABA9A5E00E389AF /* Login.h */,
+				91C228BA1ABA9A5E00E389AF /* Login.m */,
+				91C228B61ABA9A5E00E389AF /* Treatment.h */,
+				91C228B71ABA9A5E00E389AF /* Treatment.m */,
+				91C228B31ABA9A5E00E389AF /* PatientDetails.h */,
+				91C228B41ABA9A5E00E389AF /* PatientDetails.m */,
+				91C228B01ABA9A5E00E389AF /* Recommendations.h */,
+				91C228B11ABA9A5E00E389AF /* Recommendations.m */,
+				91C228AD1ABA9A5E00E389AF /* ReviewBase.h */,
+				91C228AE1ABA9A5E00E389AF /* ReviewBase.m */,
+				91C228AA1ABA9A5E00E389AF /* ReviewAssessment.h */,
+				91C228AB1ABA9A5E00E389AF /* ReviewAssessment.m */,
+				91C228A71ABA9A5E00E389AF /* Education.h */,
+				91C228A81ABA9A5E00E389AF /* Education.m */,
+				91C228A41ABA9A5D00E389AF /* Pain.h */,
+				91C228A51ABA9A5D00E389AF /* Pain.m */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		91C228BC1ABA9A8300E389AF /* CoreDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				91C228BD1ABA9A9600E389AF /* CoreDataHelper.h */,
+				91C228BE1ABA9A9600E389AF /* CoreDataHelper.m */,
+			);
+			name = CoreDataHelper;
+			sourceTree = "<group>";
+		};
+		91C228C31ABA9B0C00E389AF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91C228CB1ABA9B2100E389AF /* textboxbig.png */,
+				91C228C41ABA9B1100E389AF /* login */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		91C228C41ABA9B1100E389AF /* login */ = {
+			isa = PBXGroup;
+			children = (
+				91C228C51ABA9B1B00E389AF /* sample.png */,
+				91C228C61ABA9B1B00E389AF /* welcome_bg.png */,
+				91C228C71ABA9B1B00E389AF /* loginbutton.png */,
+			);
+			name = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,9 +304,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C228D11ABAA4E000E389AF /* WoundCare.sqlite in Resources */,
+				91C228D21ABAA4E000E389AF /* WoundCare.sqlite-shm in Resources */,
 				91C228891ABA983900E389AF /* Main.storyboard in Resources */,
+				91C228CC1ABA9B2100E389AF /* textboxbig.png in Resources */,
+				91C228C91ABA9B1B00E389AF /* welcome_bg.png in Resources */,
+				91C228D31ABAA4E000E389AF /* WoundCare.sqlite-wal in Resources */,
 				91C2288E1ABA983900E389AF /* LaunchScreen.xib in Resources */,
 				91C2288B1ABA983900E389AF /* Images.xcassets in Resources */,
+				91C228C81ABA9B1B00E389AF /* sample.png in Resources */,
+				91C228CA1ABA9B1B00E389AF /* loginbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C228A61ABA9A5D00E389AF /* Pain.m in Sources */,
+				91C228B21ABA9A5E00E389AF /* Recommendations.m in Sources */,
+				91C228AC1ABA9A5E00E389AF /* ReviewAssessment.m in Sources */,
+				91C228BB1ABA9A5E00E389AF /* Login.m in Sources */,
 				91C228831ABA983900E389AF /* WoundCare.xcdatamodeld in Sources */,
+				91C228C21ABA9AF500E389AF /* AssignmentsViewController.m in Sources */,
 				91C228801ABA983900E389AF /* AppDelegate.m in Sources */,
+				91C228AF1ABA9A5E00E389AF /* ReviewBase.m in Sources */,
 				91C228861ABA983900E389AF /* ViewController.m in Sources */,
+				91C228B81ABA9A5E00E389AF /* Treatment.m in Sources */,
+				91C228A91ABA9A5E00E389AF /* Education.m in Sources */,
+				91C228BF1ABA9A9600E389AF /* CoreDataHelper.m in Sources */,
+				91C228B51ABA9A5E00E389AF /* PatientDetails.m in Sources */,
 				91C2287D1ABA983900E389AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +403,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -303,6 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6E19F26E-B433-43B0-AB19-FBDABF0E900F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -325,7 +447,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -338,6 +461,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6E19F26E-B433-43B0-AB19-FBDABF0E900F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -348,9 +472,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
 				INFOPLIST_FILE = WoundCare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6E19F26E-B433-43B0-AB19-FBDABF0E900F";
 			};
 			name = Debug;
 		};
@@ -358,9 +485,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
 				INFOPLIST_FILE = WoundCare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6E19F26E-B433-43B0-AB19-FBDABF0E900F";
 			};
 			name = Release;
 		};
